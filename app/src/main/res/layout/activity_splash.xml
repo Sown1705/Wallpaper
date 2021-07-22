@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashActivity"
+    android:background="#1f1f1d">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/firstLine"
+            android:layout_width="20dp"
+            android:layout_height="60dp"
+            android:background="@drawable/white_line"
+            android:layout_centerHorizontal="true"
+            />
+
+        <View
+            android:id="@+id/secondLine"
+            android:layout_width="20dp"
+            android:layout_height="95dp"
+            android:layout_toRightOf="@+id/firstLine"
+            android:background="@drawable/red_line"
+            android:layout_marginLeft="8dp"/>
+
+        <View
+            android:id="@+id/thirdLine"
+            android:layout_width="20dp"
+            android:layout_height="250dp"
+            android:layout_toRightOf="@+id/secondLine"
+            android:background="@drawable/yellow_line"
+            android:layout_marginLeft="8dp"/>
+
+        <View
+            android:id="@+id/fourLine"
+            android:layout_width="20dp"
+            android:layout_height="150dp"
+            android:layout_toRightOf="@+id/thirdLine"
+            android:background="@drawable/purple_line"
+            android:layout_marginLeft="8dp"/>
+
+        <View
+            android:id="@+id/fiveLine"
+            android:layout_width="20dp"
+            android:layout_height="170dp"
+            android:layout_toRightOf="@+id/fourLine"
+            android:background="@drawable/line_1"
+            android:layout_marginLeft="8dp"/>
+
+        <View
+            android:id="@+id/sixLine"
+            android:layout_width="20dp"
+            android:layout_height="140dp"
+            android:layout_toRightOf="@+id/fiveLine"
+            android:background="@drawable/white_line"
+            android:layout_marginLeft="8dp"/>
+
+        <View
+            android:id="@+id/sevenLine"
+            android:layout_width="20dp"
+            android:layout_height="220dp"
+            android:layout_toRightOf="@+id/sixLine"
+            android:background="@drawable/red_line"
+            android:layout_marginLeft="8dp"/>
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_marginTop="150dp"
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sevenLine"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/berkshire_swash"
+            android:text="@string/app_name"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+       >
+
+        <TextView
+            android:id="@+id/tvTagLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Wallpaper by Son"
+            android:textColor="#978D8D"
+            android:textColorHighlight="#FFFFFF"
+            android:textSize="30sp" />
+    </RelativeLayout>
+</LinearLayout>
+</LinearLayout>
